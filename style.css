@@ -134,8 +134,47 @@ h1{
     padding:3px;
     
    }
-   
    .box{
+    width:200px;
+    height:auto;
+    margin-top:30px;
+    margin-left:20px;
+    gap:20px;
+    flex-direction:column;
+   
+
+ 
+}
+.container{
+ flex-direction:column;
+}
+
+ .one{
+     width:90%;
+     height:200px;
+     margin:auto;
+     align-items: center;
+ }
+ .two{
+    width:90%;
+    height:200px;
+    margin:auto;
+    align-items: center;
+ }
+ .three{
+    width:90%;
+    height:200px;
+    margin:auto;
+    align-items: center;
+ }
+ .four{
+    width:90%;
+    height:200px;
+    margin:auto;
+    align-items: center;
+     }
+   
+  /* .box{
        width:200px;
        height:auto;
        margin-top:40px;
@@ -146,6 +185,7 @@ h1{
    }
    .container{
     flex-direction:column;
+    margin-bottom: 50px;
    }
   
     .one{
@@ -168,7 +208,7 @@ h1{
         width:120%;
         padding:10px;
         align-items:center;
-    }
+    }*/
  }
  /* for i pad */
 @media screen and (min-width:500px) and (max-width:850px){
