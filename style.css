@@ -127,23 +127,25 @@ h1{
   }
     .nav{
     flex-direction:column;
-     gap:1px;
+     gap:10px;
    }
+   
+   .line{
+    margin-left: 90%;
+     }
 
    .img{
-    padding:3px;
+    padding:5px;
     
    }
    .box{
     width:200px;
     height:auto;
     margin-top:30px;
-    margin-left:20px;
+    margin-left:100px;
     gap:20px;
     flex-direction:column;
-   
-
- 
+    
 }
 .container{
  flex-direction:column;
@@ -216,7 +218,7 @@ h1{
         padding:20px;
     }
     .nav{
-        gap:1px;
+        gap:5px;
     }
  
     .img{
